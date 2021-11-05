@@ -1,0 +1,52 @@
+#page-create {
+
+    main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        form {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            label {
+                margin-bottom: 10px;
+                margin-right: 500px;
+                font: 400 20px 'Quicksand', sans-serif;
+            }
+
+            input {
+               width: 600px;
+               height: 50px;
+               margin-bottom: 20px;
+               border-radius: 8px;
+               border: solid 1px red;
+            }
+
+            textarea {
+                width: 600px;
+                margin-bottom: 20px;
+                border-radius: 8px;
+                border: solid 1px red;
+            }
+
+            button {
+                margin-top: 50px;
+                width: 200px;
+                height: 50px;
+                border-radius: 8px;
+                border: solid 1px red;
+                background: red;
+                color: white;
+                font: 400 24px 'Quicksand', sans-serif;
+                cursor: pointer;
+
+                &:hover {
+                    background: darkred;
+                }
+            }
+        }
+    }
+
+}

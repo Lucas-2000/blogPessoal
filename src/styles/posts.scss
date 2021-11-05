@@ -1,0 +1,36 @@
+#component-posts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    main {
+        display: flex;
+        text-align: justify;
+        flex-direction: column;
+        justify-content: center;
+        width: 800px;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 50px;
+        background: AntiqueWhite;
+        border: solid 1px black;
+
+        h2 {
+            font: 700 32px 'Quicksand', sans-serif;
+            text-decoration: black;
+            margin-left: 30px;
+            text-decoration: underline
+        }
+        h5 {
+            font: 400 16px 'Quicksand', sans-serif;
+            margin-left: 30px;
+        }
+        p {
+            font: 500 24px 'Quicksand', sans-serif;
+            margin-left: 30px;
+            margin-right: 30px;
+            text-decoration: underline red;
+        }
+    }
+}

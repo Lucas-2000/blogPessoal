@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Primeiro post",
+      "category": "Post",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took."
+    },
+    {
+      "title": "Blog Criado",
+      "details": "Criação do blog no dia 05/11 utilizando react",
+      "category": "React",
+      "id": 2
+    },
+    {
+      "title": "React",
+      "details": "Estudos realizados durante a semana com o intuito de entender mais sobre o react",
+      "category": "Pessoal",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+#component-header{
+    padding: 40px;
+
+    header {
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            margin-right: 80px;
+            border: solid 1px red;
+            color: red;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            font: 700 40px 'Quicksand', sans-serif;
+            cursor: pointer;
+
+            &:hover {
+                color: darkred;
+            }
+        }
+
+        button {
+            color: black;
+            border: none;
+            background: #fff;
+            font: 500 25px 'Quicksand', sans-serif;
+            cursor: pointer;
+            padding: 40px;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
